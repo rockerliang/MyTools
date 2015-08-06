@@ -81,7 +81,7 @@
 
 -(BOOL)ishideView
 {
-    NSLog(@"something....");
+    NSLog(@"something....OK");
     return YES;
 }
 
