@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7F-Ql-pCg">
+                                <rect key="frame" x="36" y="35" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="0zl-TT-zrf"/>
+                                </constraints>
+                                <state key="normal" title="多线程">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="duoxianchengBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qe5-35-rn9"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xp2-hu-cuA">
+                                <rect key="frame" x="114" y="132" width="372" height="336"/>
+                                <color key="backgroundColor" red="1" green="0.94661726049999995" blue="0.87038647950000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="D7F-Ql-pCg" secondAttribute="bottom" constant="535" id="6CD-8y-Bbn"/>
+                            <constraint firstAttribute="centerX" secondItem="Xp2-hu-cuA" secondAttribute="centerX" id="7SV-mp-i7m"/>
+                            <constraint firstAttribute="centerY" secondItem="Xp2-hu-cuA" secondAttribute="centerY" id="9YX-fN-b5u"/>
+                            <constraint firstItem="D7F-Ql-pCg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="36" id="Pdt-3R-HMO"/>
+                            <constraint firstAttribute="trailing" secondItem="D7F-Ql-pCg" secondAttribute="trailing" constant="518" id="T0i-ZO-XG2"/>
+                            <constraint firstItem="D7F-Ql-pCg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="g0r-P8-j7h"/>
+                            <constraint firstItem="Xp2-hu-cuA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="112" id="rMW-Cz-Xib"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xp2-hu-cuA" secondAttribute="trailing" constant="98" id="raa-fj-mZE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btn1" destination="D7F-Ql-pCg" id="7Vu-cV-lU3"/>
+                        <outlet property="view1" destination="Xp2-hu-cuA" id="ekX-6U-FBe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
