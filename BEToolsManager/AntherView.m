@@ -33,11 +33,7 @@
     [self nslogSomething:^(BOOL success) {
         NSLog(@"11111");
     }];
-    
-    
     return self;
-    
-    
 }
 
 -(void)nslogSomething:(sbbbbb)sbBlock

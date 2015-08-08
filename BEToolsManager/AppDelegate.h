@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,UIScrollViewDelegate>
+{
+    BOOL isOut;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

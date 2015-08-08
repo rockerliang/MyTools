@@ -42,7 +42,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    [_btn1 setTitle:@"1111" forState:UIControlStateNormal];
     // Dispose of any resources that can be recreated.
 }
 
