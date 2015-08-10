@@ -38,6 +38,13 @@
 //判断网络连接状态
 -(NSString *)canConnectNet;
 
+//正则判断手机号码
+-(BOOL)validatePhone:(NSString *)phone;
+
+//判断字符串为空
+-(NSString *)stringValue:(NSString *)value;
+
+
 
 
 
